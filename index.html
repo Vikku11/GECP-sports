@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>University Website Design</title>
+		<link rel="icon" type="image" href="images/logo.png">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="Games.html">GAMES</a>
+						</li>
+						<li>
+							<a href="Payment.html">PAYMENT</a>
+						</li>
+						<li>
+							<a href="Contact.html">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<!-- nav end -->
+			<div class="text-box">
+				<h1>GECP<br> Sports Week 2024</h1>
+				<p>Unlock your athletic potential<br>Secure your spot in the ultimate college sports week experience-Your gateway to thrilling competitions and unforgetable moments.</p>
+				<a href="Games.html" class="hero-btn">Register here</a>
+			</div>
+		</section>
+		<!-- header section end -->
+		<!-- course section strt -->
+		<section class="Games">
+			<h1>Team Games</h1>
+			<p1>Join the Fun: Register Your Team Now!</p1>
+			<div class="row">
+				<div class="Games-col" >
+					<h4>Cricket</h4>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/x4d96NCpKjR652xk6" class="hero-btn">Register</a>
+				</div>
+				<div class="Game-col" >
+					<h3>Gully Cricket</h3>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/boBhDAdb2R5XnTtPA" class="hero-btn1">Register</a>
+				</div>
+                <div class="Games-col" >
+					<h4>Volleyball</h4>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/VCdKvtPkpnRNGEBn6" class="hero-btn">Register</a>
+				</div>
+			</div>
+            	<div class="row">
+				<div class="Game-col" >
+					<h3>Kabaddi</h3>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/ZT7NpopJsYnYwnyF6" class="hero-btn1">Register</a>
+				</div>
+				<div class="Games-col" >
+					<h4>Tug of War</h4>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/B4eyZB3e8EFmytUg6" class="hero-btn">Register</a>
+				</div>
+               <div class="Game-col" >
+					<h3>Gully Cricket</h3>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/boBhDAdb2R5XnTtPA" class="hero-btn1">Register</a>
+				</div>
+			</div>
+            <h1>Individual Games</h1>
+			<p1>One Player, Endless Possibilities: Register for Individual Games Today!</p1>
+            <div class="row">
+				<div class="Games-col" >
+					<h4>Cricket</h4>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/x4d96NCpKjR652xk6" class="hero-btn">Register</a>
+				</div>
+				<div class="Game-col" >
+					<h3>Gully Cricket</h3>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/boBhDAdb2R5XnTtPA" class="hero-btn1">Register</a>
+				</div>
+                <div class="Games-col" >
+					<h4>Volleyball</h4>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/VCdKvtPkpnRNGEBn6" class="hero-btn">Register</a>
+				</div>
+			</div>
+            <div class="row">
+				<div class="Game-col" >
+					<h3>Kabaddi</h3>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/ZT7NpopJsYnYwnyF6" class="hero-btn1">Register</a>
+				</div>
+				<div class="Games-col" >
+					<h4>Tug of War</h4>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/B4eyZB3e8EFmytUg6" class="hero-btn">Register</a>
+				</div>
+               <div class="Game-col" >
+					<h3>Gully Cricket</h3>
+					<p>ADITYA PATEL :- 9099683085</p>
+                    <a href="https://forms.gle/boBhDAdb2R5XnTtPA" class="hero-btn1">Register</a>
+				</div>
+            </div>
+           
+		</section>
+		
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Explore the heart of college sports with our registration platform. Unleash your athletic potential, team spirit and dive into a world of spirited competitions. Your sports journey starts here. Join us in celebrating our GECP annual sports week 2024.</p>
+		</section>
+		
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+	</body>
+</html>
