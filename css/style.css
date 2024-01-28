@@ -170,7 +170,7 @@ p1{
 	transition: 0.5s;
 }
 .Games-col:hover{
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
 }
 .Games-col p{
     font-size: 14px;
