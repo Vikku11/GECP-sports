@@ -236,6 +236,8 @@ h4{
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 22px;
+	text-align: justify;
+	text-justify: inter-word;
 	color: #000;
 	padding: 10px;
 }
