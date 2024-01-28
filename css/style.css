@@ -164,13 +164,13 @@ p1{
 	flex-basis: 31%;
 	background: #0c2461;
 	border-radius: 10px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	padding: 20px 12px;
 	box-sizing: border-box;
 	transition: 0.5s;
 }
 .Games-col:hover{
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 .Games-col p{
     font-size: 14px;
