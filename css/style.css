@@ -201,6 +201,26 @@ p1{
 	padding: 10px;
     
 }
+.Gam-col{
+	flex-basis: 31%;
+	background: #ff7675;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.Gam-col:hover{
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+.Gam-col p{
+    font-size: 14px;
+	font-weight: 500;
+	line-height: 22px;
+	color: #000;
+	padding: 10px;
+    
+}
 h3{
 	font-weight: 1000;
 	text-align: center;
