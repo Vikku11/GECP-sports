@@ -219,22 +219,22 @@ h4{
 		flex-direction: column;
 	}
 }
-/*couse meadia query end*/
-.campus{
+
+.details{
    width: 80%;
    margin: auto;
    text-align: center;
    padding-top: 50px;
 
 }
-.campus-col{
+.details-col{
 	flex-basis: 32%;
 	border-radius: 10px;
 	margin-bottom: 30px;
 	position: relative;
 	overflow: hidden;
 }
-.campus-col img{
+.details-col img{
 	width: 100%;
 	display: block;
 }
