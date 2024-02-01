@@ -442,7 +442,7 @@ h4{
 }
 .faq-col{
     width: 90%;
-	margin: auto;
+	margin: 5%;
     align-items: center;
     padding-top: 20px;
 }
@@ -451,7 +451,7 @@ h4{
 }
 .faq1{
     width: 80%;
-	margin: auto;
+    margin: auto;
     align-items: center;
 }
 .faq1 ul{
