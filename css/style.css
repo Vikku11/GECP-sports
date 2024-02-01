@@ -445,7 +445,6 @@ h4{
 	margin: 5%;
     align-items: center;
     padding-top: 20px;
-	text-align: center;
 }
 .faq-col h1{
     text-align: center;
@@ -454,6 +453,7 @@ h4{
     width: 90%;
     margin: auto;
     align-items: center;
+	text-align: center;
 }
 .faq1 ul{
     width: 90%;
