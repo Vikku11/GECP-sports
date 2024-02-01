@@ -440,3 +440,21 @@ h4{
 	border: 1px solid #ccc;
 	box-sizing: border-box;
 }
+.faq-col{
+    width: 90%;
+	margin: auto;
+    align-items: center;
+    padding-top: 20px;
+}
+.faq-col h1{
+    text-align: center;
+}
+.faq1{
+    width: 80%;
+	margin: auto;
+    align-items: center;
+}
+.faq1 ul{
+    width: 90%;
+}
+
