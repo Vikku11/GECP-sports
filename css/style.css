@@ -207,8 +207,9 @@ p1{
 }
 .Gam-col{
 	flex-basis: 31%;
-	background: #ff7675;
+	background: #d63031;
 	border-radius: 10px;
+	margin-top: 5%;
 	margin-bottom: 5%;
 	padding: 20px 12px;
 	box-sizing: border-box;
