@@ -213,6 +213,7 @@ p1{
 	padding: 20px 12px;
 	box-sizing: border-box;
 	transition: 0.5s;
+	text-align: center;
 }
 .Gam-col:hover{
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
@@ -453,7 +454,6 @@ h4{
     width: 90%;
     margin: auto;
     align-items: center;
-	text-align: center;
 }
 .faq1 ul{
     width: 90%;
